@@ -1,0 +1,3 @@
+FROM openjdk:17
+WORKDIR /usr/src/server
+CMD ["java", "-Xmx2048M", "-Xms1024M", "-jar", "server.jar", "nogui"]
